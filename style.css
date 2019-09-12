@@ -1,0 +1,380 @@
+*{padding: 0;  font-family: 'Montserrat', sans-serif;}
+
+@font-face {
+    font-family: 'Gabriola';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gabriola'), url('font/gabriola Font Download.woff') format('woff');
+    }
+
+p, a{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px; 
+}
+
+.atf{
+    background: url('images/atf.jpg') center top;
+    background-attachment: fixed;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-right: 1.5rem;
+}
+
+.tagline{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15.2rem;
+    padding-bottom: 10rem;
+}   
+
+.tagline h4{
+    font-size: 21px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+.tagline h1{
+    font-size: 55px;
+    font-family:'Gabriola';
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.atf-bottom{
+    background: url('images/bottom-bg.png');
+    padding: 20px 0 22px 0;
+}
+
+.atf-bottom .col-md-4{
+    padding: 20px 0;
+}
+
+.atf-bottom .col-md-4:first-child p{
+   font-family:'Gabriola';
+    font-size: 30px;
+    position: relative;
+    left: 30px;
+}
+
+.atf-bottom .col-md-4:first-child p:before{
+   content: url('images/clock.png');
+   position: absolute;
+   left: 60px;
+}
+
+.atf-bottom .col-md-4:nth-child(2){
+    font-size: 22px;
+    border-right:1px solid #fff;
+    border-left:1px solid #fff;
+    font-weight: 600;
+ }
+
+ .atf-bottom .col-md-4:last-child p{
+    line-height: 1.5;   
+    font-weight: 600;
+    font-size: 14px;
+    padding:0 40px;
+ }
+
+ .abt-section h2{
+    font-family:'Gabriola';
+    font-weight:normal;
+    color: #000;
+ }
+
+ .abt-section{
+     padding:100px 0 50px 0;
+     color: #787878;
+     line-height: 1.8;
+ }
+
+ .abt-section .col-md-7{
+    padding:0 0 100px 0;
+}
+
+ .abt-section p{
+    font-size: 15px;
+ }
+
+ .abt-section .line{
+     color:#236bad;
+ }
+
+ .abt-section img{
+    width:auto;
+}
+
+.abt-section .col-md-5{
+    background: url('images/abt.jpg');
+    background-size: cover;
+}
+
+.abt-section a{
+    text-transform: uppercase;
+    color:#000;
+    font-weight: 600;
+    font-size: 15px;
+    border-bottom: 1px solid #236bad;
+    padding-bottom: 5px;
+}
+
+.abt-section a:hover{
+    text-decoration: none;
+}
+
+.calendar-section{
+    background: url('images/calendar.jpg') center top;
+    padding: 100px 0;
+}
+
+.calendar-section h4{
+    font-family:'Gabriola';
+    font-weight:normal;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.calendar-section .line2{
+    text-align: center;
+    display:block;
+}
+
+.calendar-section > .calendar-holder iframe{
+    padding-left:0;
+}
+
+.calendar-section .list ul{
+    -webkit-column-count: 2; /* Old Chrome, Safari and Opera */
+  -moz-column-count: 2; /* Old Firefox */
+  column-count: 2;
+  padding: 0;
+}
+
+.calendar-section .list ul li{
+    display: block;
+    border-bottom:1px solid #fff3;
+    padding:15px 0 15px 30px;
+    position: relative;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.calendar-section .list ul li:nth-child(9), .calendar-section .list ul li:last-child{
+    border-bottom:0;
+}
+.calendar-section .list ul li:before{
+ content:url('images/check.png');
+ position: absolute;
+ left:0;
+}
+
+.calendar-section .list ul li:last-child:before{
+    display: none;
+}
+
+.calendario{
+    margin:55px 0 0 0;
+}
+
+.btn-st{
+    padding:25px;
+    background: #ffc600;
+    letter-spacing: 2px;
+    margin:20px 0 0 0;
+}
+
+.btn-st:hover{
+   text-decoration: none;
+   background: #000;
+}
+
+.list {
+    padding-left: 12px;
+}
+
+.upcoming-section .box{
+border:1px solid #93939342;
+}
+
+.upcoming-section .date{
+    background: #ffc600;
+    border-radius: 200px;
+    width: 90px;
+    font-size:20px;
+    text-align: center;
+    padding:15px;
+    color:#fff;
+    line-height: 1.1;
+    margin:0 auto;
+    text-transform: uppercase;
+   }
+
+   .upcoming-section .date b{
+    font-size:35px;
+   }
+
+.upcoming-section h4{
+    text-align: center;
+    font-family:'Gabriola';
+    font-size:35px;
+    padding:15px 0 10px 0;
+   }
+
+.upcoming-section ul li{
+   display: inline-block;
+   position: relative;
+   margin:0 10px;
+   color:#939393;
+}
+
+.upcoming-section ul li:first-child{
+    padding: 0 0 0 25px;
+ }
+
+ .upcoming-section ul li:last-child{
+    padding: 0 0 0 30px;
+ }
+
+.upcoming-section ul li:first-child::before{
+    content:url('images/location.png');
+    position: absolute;
+    left:0;
+ }
+   
+ .upcoming-section ul li:last-child::before{
+    content:url('images/clock2.png');
+    position: absolute;
+    left:0;
+ }
+
+ .upcoming-section {
+    margin: 100px 0;
+
+}
+
+.btn-holder{
+    margin:100px 0 0 0;
+}
+
+.gallery-section h4, .bible-verse h4{
+    text-align: center;
+    font-family:'Gabriola';
+    font-size:35px;
+    padding:15px 0 10px 0;
+}
+
+.gallery-section .img-fluid{
+    height: 250px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width:30px;
+}
+
+.carousel-control-prev-icon{
+    background: url('images/prev.png') no-repeat center top;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 48px;
+    height: 48px;   
+}
+
+.carousel-control-next-icon{
+    background: url('images/next.png') no-repeat center top;
+}
+
+.bible-verse{
+  margin:80px 0;
+}
+
+.bible-verse p{
+    font-family:'Gabriola';
+    font-size:25px;
+}
+
+.bible-verse h3{
+    font-size:20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:#ffc600;
+}
+
+.bible-verse .verse{
+    width:50% !important;
+}
+
+footer{
+    background: url(images/map.jpg) center top;
+    padding:95px 0 50px 0;
+}
+
+footer .contact{
+    background: #fff;
+    padding:55px 0;
+}
+
+footer .contact h5{
+    text-align: left;
+    font-family:'Gabriola';
+    font-size: 23px;
+    padding: 0 30px;
+}
+
+footer .card-deck .card{
+    border:0;
+}
+
+footer .contact ul li{
+    display: inline-block;
+    color:#939393;
+    font-size: 13px;
+    position: relative;
+    padding: 20px 0 0 50px; 
+}
+
+footer .contact ul li a{
+    color:#939393;
+
+}
+
+footer .contact ul li:first-child:before{
+    content:url('images/location2.png');
+    position: absolute;
+    left:30px ;  
+}
+
+footer .contact ul li:nth-child(2):before{
+    content:url('images/phone.png');
+    position: absolute;
+    left:25px ;
+}
+
+footer .contact ul li:last-child:before{
+    content:url('images/mail.png');
+    position: absolute;
+    left:25px ;
+    top:23px;
+}
+
+
+@media screen and (max-width:993px){
+    .gallery-section .img-fluid{
+        height:auto;
+    }
+}
+
+@media screen and (max-width:770px){
+    .gallery-section .img-fluid{
+        display: block;
+        margin: 0 auto;
+    }
+}
